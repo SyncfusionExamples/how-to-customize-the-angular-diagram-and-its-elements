@@ -1,12 +1,14 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { ConnectorModel, FlowShapeModel, NodeModel, PageSettingsModel, PointPortModel, SnapConstraints, SnapSettingsModel,
-  ConnectorBridging, Diagram, DiagramConstraints } from '@syncfusion/ej2-angular-diagrams';
+  ConnectorBridging, Diagram,DiagramModule, DiagramConstraints } from '@syncfusion/ej2-angular-diagrams';
 Diagram.Inject(ConnectorBridging);
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.css'],
   encapsulation: ViewEncapsulation.None,
+   standalone: true,
+  imports:[DiagramModule]
 })
 export class AppComponent {
   title = 'myangularproject';
