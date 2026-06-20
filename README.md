@@ -1,6 +1,6 @@
 # How to Customize the Angular Diagram and Its Elements
 
-A quick start Angular project that shows how to customize the diagram canvas page in the Angular Diagram component. This project includes code snippets for displaying page breaks and multiple pages in the canvas. It also includes code snippets for customizing the appearance of nodes and connectors and for bridging connectors.
+A quick start Angular project that shows how to customize the diagram canvas page in the [Angular Diagram](https://www.syncfusion.com/angular-components/angular-diagram) component. This project includes code snippets for displaying page breaks and multiple pages in the canvas. It also includes code snippets for customizing the appearance of nodes and connectors and for bridging connectors.
 
 Refer to the node documentation for the Syncfusion&reg; Angular Diagram component: 
 https://ej2.syncfusion.com/angular/documentation/diagram/nodes
